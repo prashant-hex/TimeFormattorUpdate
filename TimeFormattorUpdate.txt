@@ -1,0 +1,7 @@
+changes to be made in line -12 where :
+var logTime = moment(time, "yyyy-MM-dd HH:mm:ss").format(`lll`)
+
+
+and change this into 
+
+var logTime = moment(time, "yyyy-MM-DD HH:mm:ss").format(`lll`)
